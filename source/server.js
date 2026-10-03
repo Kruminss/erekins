@@ -9,7 +9,7 @@ import { extractInvoiceData, ExtractionError, MAX_FILE_BYTES, DEFAULT_MODEL } fr
 
 const SOURCE_DIR = path.dirname(fileURLToPath(import.meta.url));
 const PUBLIC_DIR = path.join(SOURCE_DIR, 'public');
-// Atslēgas fails atrodas projekta saknē — ārpus publiski pasniegtās mapes.
+// Atslēgas fails atrodas projekta saknē — ārpus publiski pasniegtās mapes!!!
 const API_KEY_FILE = path.join(SOURCE_DIR, '..', 'ApiKey.txt');
 
 const MIME_TYPES = {
